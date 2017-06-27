@@ -1,0 +1,11 @@
+base
+highcharter
+dplyr
+viridisLite
+viridis
+ggplot2
+png
+ggthemes
+DT
+reshape
+corrplot

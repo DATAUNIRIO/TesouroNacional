@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ciência de Dados com o R</title>
+    <title>Introdução à Ciência de Dados com o R</title>
     <meta charset="utf-8">
     <meta name="author" content="Steven Dutt Ross" />
     <link href="libs/remark-css/example.css" rel="stylesheet" />
@@ -16,7 +16,7 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# Ciência de Dados com o R
+# Introdução à Ciência de Dados com o R
 ## Tesouro Nacional
 ### Steven Dutt Ross
 
@@ -27,11 +27,11 @@ class: center, middle, inverse, title-slide
 
 
 ## Por que usar o R?
-&lt;P&gt;1 . O R é a principal ferramenta para análise de dados. É mais do que um software estatístico, é uma linguagem de programação.
-&lt;P&gt;2. Você pode usá-lo facilmente em qualquer lugar.
-&lt;P&gt;3. É grátis. Você pode usa-lo em qualquer empresa, escola, em qualquer local sem ter que convencer o chefe a comprar uma licença.
-&lt;P&gt;4. Existem mais de 10.000 pacotes de contribuições de usuários disponíveis no site do R (cran). Muitos pacotes  são colocados pelos membros mais proeminentes de seus respectivos campos.
-&lt;P&gt;5. R tem uma grande (e crescente) comunidade de usuários. As listas de discussões fornecem acesso a muitos usuários e autores de pacotes que são especialistas em  seus campos.
+&lt;P&gt;1 . O R é a **principal** ferramenta para análise de dados. É mais do que um software estatístico, é uma linguagem de programação.
+&lt;P&gt;2. Você pode usá-lo **facilmente** em qualquer lugar.
+&lt;P&gt;3. **É grátis.** Você pode usa-lo em qualquer empresa, escola, em qualquer local sem ter que convencer o chefe a comprar uma licença.
+&lt;P&gt;4. Existem **mais de 10.000 pacotes com contribuições** de usuários disponíveis no site do R (cran). Muitos pacotes  são colocados pelos pesquisadores mais proeminentes de seus respectivos campos de estudo.
+&lt;P&gt;5. R tem uma **grande (e crescente) comunidade de usuários**. As listas de discussões fornecem acesso a muitos usuários e autores de pacotes que são especialistas em  seus campos.
 &lt;BR&gt;
 &lt;P&gt;OBS - Essa apresentação foi desenvolvida em R
 
@@ -43,15 +43,6 @@ class: center, middle, inverse, title-slide
 &lt;BR&gt;
 Outras organizações que utilizam o R: IBGE, FGV, IBOPE, Ministério da
 Indústria, Comércio Exterior e Serviços, etc...
-
----
-
-## Por que usar o R?
-&lt;BR&gt;
-COMEX-VIS do Ministério da Indústria,Comércio Exterior e Serviços
-
-![](index_files/figure-html/unnamed-chunk-2-1.png)&lt;!-- --&gt;
-![ComexVis] (http://www.mdic.gov.br/comercio-exterior/estatisticas-de-comercio-exterior/comex-vis) foi desenvolvido em R
 
 ---
 
@@ -73,6 +64,15 @@ COMEX-VIS do Ministério da Indústria,Comércio Exterior e Serviços
 
 ---
 
+## Por que usar o R?
+&lt;BR&gt;
+COMEX-VIS do Ministério da Indústria,Comércio Exterior e Serviços
+
+![](index_files/figure-html/unnamed-chunk-2-1.png)&lt;!-- --&gt;
+![ComexVis] (http://www.mdic.gov.br/comercio-exterior/estatisticas-de-comercio-exterior/comex-vis) foi desenvolvido em R
+
+---
+
 ## R nas melhores revistas científicas
 ![](index_files/figure-html/unnamed-chunk-3-1.png)&lt;!-- --&gt;
 [Fonte](http://estatisticacomr.com.br/r-nas-revistas-cientificas/)
@@ -85,27 +85,43 @@ Muitas funções do R vêm em pacotes, bibliotecas gratuitas de código escritas
 
 ---
 
+## Análises Desenvolvidas pelo R
+
+[Transparência](https://duttross.shinyapps.io/transparencia1/)
+
+[Engajamento Orçamentário](https://duttross.shinyapps.io/Engajamento/)
+
+[Mapa da Rocinha](https://dataunirio.github.io/Rocinha/)
+
+[Gráfico Interativo GAE](http://gae.uniriotec.br/4/visualizacao.html)
+
+
+
+Pessoalmente, tenho grande experiência com programação SPSS, SAS, Excel/VBA, mas acabei trocando todas essas ferramentas pelo R.
+
+---
+
 ## Entender não basta 
-Ideia: Não quero só entender esse gráfico, mas também quero desenvolver análises desse tipo.
+Ideia: Não quero só entender esse gráfico. Quero também desenvolver análises desse tipo.
 ![](index_files/figure-html/unnamed-chunk-5-1.png)&lt;!-- --&gt;
 ###Parece interessante?
 
 ---
 
-## Estatística 
+## Estatística/Data Science 
 ### Estatística como ciência do aprendizado
 1. Estatística é a ciência do aprendizado a partir dos dados
 
 ---
 
-## Estatística 
+## Estatística/Data Science 
 ### Estatística como ciência do aprendizado
 1. Estatística é a ciência do aprendizado a partir dos dados
 2. Sempre olhe os dados: A procedência dos dados é importante
 
 ---
 
-## Estatística 
+## Estatística/Data Science  
 ### Estatística como ciência do aprendizado
 1. Estatística é a ciência do aprendizado a partir dos dados
 2. Sempre olhe os dados: A procedência dos dados é importante
@@ -120,7 +136,7 @@ Ideia: Não quero só entender esse gráfico, mas também quero desenvolver aná
 3. A variação está em toda parte
 
 ### Letramento (Literacia) e Numeramento (Numeracia)
-A ênfase será na compreensão e aplicação de conceitos e técnicas, em vez da demonstração de teoremas. O curso é baseado na aplicação prática usando a linguagem computacional R para estatística e gráficos.
+A ênfase será na compreensão e aplicação de conceitos e técnicas, em vez da demonstração de teoremas. O curso é baseado na aplicação prática usando a linguagem computacional R.
 
 ---
 
@@ -461,7 +477,7 @@ SIAFI$Municipio
 
 *  Os valores de uma variável categórica são rótulos para as categorias. A distribuição de uma variável categorica lista as categorias e dá a contagem e o percentual de registros que estão em cada uma delas.
 
-*exemplo de um gráfico e uma distribuição de frequencia no R*
+*primeiro exemplo de um gráfico e uma distribuição de frequência no RCmdr*
 
 ---
 
@@ -672,29 +688,6 @@ O Box-Plot é o gráfico do resumo dos cinco números.
 A Amplitude interquartil AIQ é a distância entre o primeiro e o terceiro quartil
 
 ![](index_files/figure-html/quartil5-1.png)&lt;!-- --&gt;
-
-
----
-
-### O BOX PLOT
-A Amplitude interquartil AIQ é a distância entre o primeiro e o terceiro quartil
-
-```
-
-```
-
-
-
-`$$AIQ=Q3-Q1$$`
-
-Uma observação é um valor suspeito de ser um outlier se ela cais a mais de 1,5*AIQ acima do terceiro quartil ou abaixo do primeiro quartil. No caso do HP
-
-
-```
-
-```
-
-$$ Q3+1,5*AIQ = 180+1,5*(180-96,5) = 180 + 125.25 = 305,5 $$
 
 
 ---
