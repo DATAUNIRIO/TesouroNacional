@@ -9,3 +9,7 @@ ggthemes
 DT
 reshape
 corrplot
+zoo
+lmtest
+tseries
+car
